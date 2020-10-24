@@ -81,7 +81,7 @@ namespace EjemploDataGrid {
 			this->dgvMatriz->AllowUserToAddRows = false;
 			this->dgvMatriz->AllowUserToDeleteRows = false;
 			this->dgvMatriz->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-			this->dgvMatriz->Location = System::Drawing::Point(48, 144);
+			this->dgvMatriz->Location = System::Drawing::Point(12, 89);
 			this->dgvMatriz->Name = L"dgvMatriz";
 			this->dgvMatriz->Size = System::Drawing::Size(670, 368);
 			this->dgvMatriz->TabIndex = 5;
@@ -90,16 +90,16 @@ namespace EjemploDataGrid {
 			// 
 			this->groupBox1->Controls->Add(this->txtPath);
 			this->groupBox1->Controls->Add(this->button1);
-			this->groupBox1->Location = System::Drawing::Point(318, 27);
+			this->groupBox1->Location = System::Drawing::Point(12, 12);
 			this->groupBox1->Name = L"groupBox1";
-			this->groupBox1->Size = System::Drawing::Size(400, 100);
+			this->groupBox1->Size = System::Drawing::Size(400, 62);
 			this->groupBox1->TabIndex = 6;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Importar Archivo de Texto";
+			this->groupBox1->Text = L"Importar Datos de Excel";
 			// 
 			// txtPath
 			// 
-			this->txtPath->Location = System::Drawing::Point(113, 26);
+			this->txtPath->Location = System::Drawing::Point(87, 25);
 			this->txtPath->Name = L"txtPath";
 			this->txtPath->ReadOnly = true;
 			this->txtPath->Size = System::Drawing::Size(263, 20);
@@ -107,7 +107,7 @@ namespace EjemploDataGrid {
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(21, 26);
+			this->button1->Location = System::Drawing::Point(6, 23);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(75, 23);
 			this->button1->TabIndex = 0;
@@ -123,7 +123,7 @@ namespace EjemploDataGrid {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(750, 542);
+			this->ClientSize = System::Drawing::Size(820, 467);
 			this->Controls->Add(this->groupBox1);
 			this->Controls->Add(this->dgvMatriz);
 			this->Name = L"MyForm";
